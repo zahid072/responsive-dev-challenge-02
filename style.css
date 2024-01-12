@@ -23,6 +23,13 @@ nav>ul{
 nav ul li{
     color: #909193;
 }
+.menu-icon i{
+    font-size: 22px;
+}
+.menu-icon{
+    display: none;
+
+}
 .about-us{
     color: #111729;
 }
@@ -102,6 +109,22 @@ nav ul li{
     .left-content{
         width: 100%;
         margin-top: 40px;
+    }
+    
+}
+@media screen and (max-width:640px) {
+
+    .right-content{
+        width: 100%;
+    }
+    .dark-mode-icon, nav>ul{
+        display: none;
+    }
+    .menu-icon{
+        display: block;
+    }
+    body{
+        margin: 50px 5%;
     }
     
 }
