@@ -45,9 +45,10 @@ nav ul li{
     padding-right: 140px;
 }
 .left-content h1{
-    font-size: 54px;
-    font-weight: 800;
+    font-size: 60px;
+    font-weight: 700;
     margin-top: 20px;
+    color: #223344;
 }
 .left-content-desc{
     color: #223344;
@@ -86,4 +87,21 @@ nav ul li{
 }
 .right-content img{
     width: 100%;
+}
+
+@media screen and (max-width:1024px) {
+    
+    .main-container{
+        flex-direction: column-reverse;
+    }
+    .right-content{
+      margin: 0 auto;
+      width: 60%;
+      margin-bottom: 40px;
+    }
+    .left-content{
+        width: 100%;
+        margin-top: 40px;
+    }
+    
 }
